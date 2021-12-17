@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Digitalisering i undervisningen</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+ 
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Lavet af Sebastian Mølgaard,<br> Sille, Marius og Peter</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Digitalisering i undervisningen</a> 
+    <a href="#Problemformulering" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Problemformulering</a> 
+    <a href="#Redegørelse" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Redegørelse</a> 
+    <a href="#Analyse" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Analyse</a> 
+    <a href="#Konklussion" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Konklussion</a> 
+    <a href="#Nyttige kilder" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Nyttige Kilder</a>
+  </div>
+</nav>
+ 
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span> Lavet af Sebastian Mølgaard, Sille, Marius og Peter </span>
+</header>
+ 
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+ 
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+ 
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="Problemformulering">
+    <h1 class="w3-jumbo"><b>Digitalisering i undervisningen</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Problemformulering.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+      <p style="font-size:1.3rem"><b>Da vores skolesystem er bygget på undervisning der foregår digitalt, vil vi dermed undersøge, hvilken betydning det har for børn og unge? Vi har investeret i store mængder af IT udstyr til undervisningen, men er det mere effektivt? Vi vil også undersøge om Computere der bliver brugt i undervisningen, hindrer indlæringsevnen. Sidst vil vi reflektere på, hvorvidt pandemiens udførsel af online undervisning, har haft negativ effekt på børn og deres socialisering med andre børn. Dette vil vi diskutere i forbindelse med Giddens teori om genspejling og refleksivitet.</b></p>
+    
+  </div>
+  
+  <!-- Photo grid (modal) -->
+ 
+ 
+   
+ 
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+ 
+  <!-- Redegørelse -->
+  <div class="w3-container" id="Redegørelse" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Redegørelse</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p style="font-size:1.4rem"><b>Redegørelse for digitalisering, socialisering og digital dannelse</b></p>
+    <p><b>Digitalisering</b></p>
+    <p>“En ny evaluering af indsatsen med 500 millioner kroner til at styrke it i folkeskolen viser, at over 80 procent af lærerne anvender it som en aktiv del af undervisningen” - børne- og undervisningsministeriet.
+         
+    </p>
+    <p><b>Socialisering</b></p>
+    <p> Eksperter og undersøgelser har vist at hver 5. elev har svært ved at holde koncentrationen og finde et reelt formål med online undervisning.</p>
+    <p><b>Digital dannelse</b></p>
+    
+    <p>Digital dannelse + digital færdigheder = digital kompetence</p>
+  </div>
+  
+  <!-- Analyse -->
+  <div class="w3-container" id="Analyse" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Analyse.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p><b>Computere der bliver brugt i undervisningen hindrer indlæringsevnen.</b></p>
+    <p>den tyske professor i neurovidenskab, Manfred Spitzer, har forsket i, hvad der sker i hjernen under indlæring. Han advarer imod læring med ipads og computere, blandt andet på grund af at det kan reducere evnen til at koncentrere sig, tænke dybere og generere viden.</p>
+    <p><b>Lærernes perspektiv på digitaliseringen</b></p>
+    <p>“Mange lærere ønsker ikke at virke umoderne, og konsensus er, at it er godt, og så må it hele tiden være det allerbedste. De er bange for at komme til at virke gammeldags, hvis de laver restriktioner,” siger Dorte Ågård.
+Hun beskriver også, at mange lærere er usikre på, om elevernes private brug af computer og telefoner faktisk går ud over læringen - eller i hvor stort omfang eleverne rent faktisk sidder med øjnene på Instagram eller Snapchat i timerne.
+</p>
+    
+    
+    <p><b>Vurdering af online undervisning udført under pandemien</b></p>
+    <p>Denne analyse er lavet på et spørgeskemaundersøgelse blandt 85.000 studerende fordelt på 9 institutioner samt, et spørgeskemaundersøgelse blandt 6.000 undervisere fordelt på de samme 9 institutioner.
+</p>
+    <p>Underviserne har primært sigtet mod at overføre de eksisterende undervisningsaktiviteter til online formater. Ved institutionerne, vurderer en stor del af underviserne dog, at der har været mindre fælles diskussion, mindre studenteroplæg, mindre forsøg og mindre 1-1-dialog mellem underviser og studerende.</p>
+    <p><b>Matematisk formidling</b>:</p> 
+  </div>
+  
+   
+ 
+  <!-- The Team -->
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p403x403/266218429_1060660924722017_5725202209962006173_n.png?_nc_cat=111&ccb=1-5&_nc_sid=aee45a&_nc_ohc=OZjPtXtRVAoAX9W3fP9&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKeDrFBP_LMKiFzdHflbyBTkKD8EvmvvuaFZ1jzrpU8Mw&oe=61E0FC47" alt="John" style="width:110%">
+        <div class="w3-container">
+          
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="Regression1.png" style="width:110%">
+        <div class="w3-container">
+         
+      
+          
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="Regression2.png" style="width:115%">
+        <div class="w3-container">
+         
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Konklussion -->
+  <div class="w3-container" id="Konklussion" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Konklussion.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p style="font-size:1.3rem"><b></b></p>
+    
+    <p><b>Man kan ikke bede lærerne om at håndhæve de etiske regler for digital dannelse</b></p>
+    <p>“Det er helt åbenlyst, at det går ud over undervisningen, hvis der ikke er regler for det her, og det er for svært for den enkelte lærer at stå med ansvaret for at lave reglerne,” siger Dorte Ågård.</p>
+    
+    <p><b>fastsætte fælles kommunale regler om hvordan man færdes på internettet</b></p>
+    <p>“Det handler ikke om at være teknologiforskrækket. Det digitale skal bruges så meget i undervisningen som muligt, når det gavner undervisningen, men når en elev for eksempel fremlægger noget for de andre, så skal skærmene være lukket ned, alle hører efter,”</p>
+<p>“Jeg tror, mange elever gerne vil have hjælp til at styre deres forbrug af sociale medier. De er bevidste om, at det ikke er godt for dem, når de falder ud af undervisningen,” siger Bodil Marie Gade, som synes, at undervisningen bliver bedre med de nye regler.</p> 
+<p><b>For stor udnyttelse af IT ødelægger 1:1 læring mellem underviser og elev</b></p>   
+    
+    
+    
+  <!-- Nyttige kilder -->
+  <div class="w3-container" id="Nyttige kilder" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Nyttige kilder.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p><b>Webside / Internetkilde: Blogindlæg</b>
+Anna. (2021, 17. juli). Er online læring ligeså godt som traditionel undervisning?: sandheden afsløres. easyLms. https://www.easy-lms.com/da/videnscenter/videnscenter/er-online-laering-ligesaa-godt-som-traditionel-undervisning/item12527</p>
+   <p><b>Webside / Internetkilde: Side på websted</b>
+Hvad er digitalisering: Digitalisering. (2018, 06. april). Avt Business school. https://avt.dk/hvad-er-digitalisering/
+</p>
+<p><b>Webside / Internetkilde: Artikel på Wikipedia/online leksika</b>Søren nielsen, SN. (2018, 19. juni). It er en aktiv del af undervisningen i folkeskolen. I: Børn- og undervisningsministeriet. https://www.stukuvm.dk/aktuelt/uvm/2018/juni/180619-it-er-en-aktiv-del-af-undervisningen-i-folkeskolen</p>  
+<p><b>Webside / Internetkilde: Artikel på Wikipedia/online leksika</b>Anne Anthon Andersen, A.A.A. (2016, 1. januar). digital dannelse. I: faktalink. https://faktalink.dk/titelliste/digital-dannelse
+</p>
+<p><b>Webside / Internetkilde: Side på websted</b><a href="https://www.folkeskolen.dk/1839001/online-undervisning-vender-op-og-ned-paa-mange-ting" target="_blank">Ove Christensen, O.C. (2020, 02. april). center for børneliv. folkeskolen.</a</p>
+<p><b>Webside / Internetkilde: Øvrige formater</b></p> Covid 19 undervisning: Samlet rapport [PDF Rapport]. (2021, 1. 1). aarhus universitet. https://www.ucn.dk/Files/Billeder/ucn/Forskning/COVID%2019%20undervisning%20samlet%20rapport.pdf
+<p><b>Webside / Internetkilde: Side på websted</b>Jesper Balslev, J.P. (2017, 09. oktober). Forsker: Stor it-satsning har ikke givet bedre læring. Gymnasieskolen. https://gymnasieskolen.dk/forsker-stor-it-satsning-har-ikke-givet-bedre-laering</p>
+<p><b>Webside / Internetkilde: Blogindlæg</b>Thomas Sjørup, T.S. (2020, 04. maj). Hver 5. elev har svært ved corona undervisning. SDU. https://www.sdu.dk/da/nyheder/forskningsnyheder/hver-femte-elev-har-svaert-ved-corona-undervisning</p>
+<p><b>Webside / Internetkilde: Blogindlæg</b>Johan Rasmussen, J.R. (2017, 20. Juni). Forsker: Vi er ved at tabe en generation af elever. Gymnasieskolen. https://gymnasieskolen.dk/forsker-vi-er-ved-tabe-en-generation-af-elever</p>
+<p><b>Webside / Internetkilde: Øvrige formater</b> Forlæggerforeningen. (2012-2020, 1. januar). års-statistik: 2012-2020 [PDF]. Danske forlag. https://www.danskeforlag.dk/media/1248/forlaeggerforeningens-%C3%A5rsstatistik-2012.pdf</p>
+ 
+ 
+<!-- End page content -->
+</div>
+ 
+ 
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+ 
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+ 
+</body>
+</html>
+ 
+ 
+
